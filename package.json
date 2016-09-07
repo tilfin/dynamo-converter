@@ -1,6 +1,6 @@
 {
   "name": "dynamo-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Light reversible converter JavaScript value to DynamoDB attrbute for Node.js",
   "main": "main.js",
   "directories": {
