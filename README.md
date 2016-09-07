@@ -62,6 +62,7 @@ For converting from DynamoDB getItem result
 
 ### Convert JS value to DynamoDB Attribute
 
+```
 > dc.toAttr('Hello')
 { S: 'Hello' }
 
@@ -75,7 +76,6 @@ For converting from DynamoDB getItem result
   }
 }
 
-```
 > dc.toAttr([1, 2, 3])
 { NS: [ '1', '2', '3' ] }
 
