@@ -1,6 +1,7 @@
 dynamo-converter
 ================
 
+[![NPM Version][npm-image]][npm-url]
 [![Build Status](https://travis-ci.org/tilfin/dynamo-converter.svg?branch=master)](https://travis-ci.org/tilfin/dynamo-converter)
 
 Light reversible converter JavaScript value to DynamoDB attrbute for Node.js
@@ -94,7 +95,7 @@ For converting from DynamoDB getItem result
 
 #### FAST (default)
 
-This is checking only first element of array. so you do not an array has both string and number, Buffer element.
+This is checking only first element of array. so you do not use an array has both string and number, Buffer elements.
 
 ```
 > dc.toAttr([1, 'word'], dc.ARRAY_MODE_FAST)
@@ -124,3 +125,7 @@ Convert list as array at all
 ## LICENSE
 
 MIT
+
+
+[npm-image]: https://img.shields.io/npm/v/dynamo-converter.svg
+[npm-url]: https://npmjs.org/package/dynamo-converter
