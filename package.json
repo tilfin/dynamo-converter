@@ -1,0 +1,30 @@
+{
+  "name": "dynamo-converter",
+  "version": "1.0.0",
+  "description": "Light reversible converter JavaScript value to DynamoDB attrbute for Node.js",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilfin/dynamo-converter.git"
+  },
+  "keywords": [
+    "DynamoDB",
+    "converter"
+  ],
+  "author": "Toshimitsu Takahashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tilfin/dynamo-converter/issues"
+  },
+  "homepage": "https://github.com/tilfin/dynamo-converter#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
